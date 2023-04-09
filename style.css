@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,600;0,700;0,800;1,600;1,700;1,800&display=swap');
+
+html{
+    font-size: 16.5px;
+    scroll-behavior: smooth;
+    font-family:'Urbanist', sans-serif;
+}
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+.navbar-light{
+    font-family:'Urbanist', sans-serif;
+    font-weight: 400;
+    background: #F2F4F8;
+}
+.navbar-nav > li{
+    padding-left:30px;
+    padding-right:30px;
+}
+.bg-ime-red{
+    background:#CB3D2F;
+    -moz-border-radius: 60px;
+    border-radius: 60px;
+    color:#FCF9D7
+}
+.bg-ime-blue{
+    background:#2A3789;
+    -moz-border-radius: 60px;
+    border-radius: 60px;
+    color:#F2F4F8
+}
+.background-color{
+    background:#F2F4F8;
+    font-family:'Urbanist', sans-serif;
+    font-weight: 600;
+}
+.bg-underline-red{
+    background:#F2F4F8;
+    color:#2A2E31;
+    font-weight: 600;
+    border-bottom: 3px solid #CB3D2F;
+
+}
+.parallax {
+    background-attachment: scroll;}
+.carousel {
+    font-family:'Urbanist', sans-serif;
+}
+.bold {
+    font-weight: 600;
+}
+.card {
+    border: none;
+}
+.regular {
+    font-weight: 400;
+}
+.ime-default{
+    background:#F2F4F8;
+    font-family:'Urbanist', sans-serif;
+    color:#2A2E31;
+}
+.no-padding{
+    padding: 0px !important;
+   }
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px !important;;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #F2F4F8;
+    width: 10px !important;;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #2A3789;
+    width: 10px !important;;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #2A3789;
+    width: 10px !important;;
+  }
+
+div.navbar *::-moz-selection {
+    background: none !important;
+}
+div.navbar *::selection {
+    background: none !important;
+}
+html {
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;    
+}
+.card-ime{
+    background: #FCD843; 
+    font-family:'Urbanist', sans-serif;
+}
+.large{
+    font-size:x-large;
+}
+a.footer-link{
+    color:#2A3789;
+    text-decoration: none;
+}
+a.footer-link:hover{
+    color:#2A3789;
+    text-decoration: none;
+}
